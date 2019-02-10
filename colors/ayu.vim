@@ -226,7 +226,6 @@ exe "hi! NERDTreeClosable"          .s:fg_accent      .s:bg_none        .s:fmt_n
 " exe "hi! NERDTreeCWD"               .s:fg_pink        .s:bg_none        .s:fmt_none
 exe "hi! NERDTreeUp"                .s:fg_fg_idle    .s:bg_none        .s:fmt_none
 exe "hi! NERDTreeDir"               .s:fg_fg_idle    .s:bg_none        .s:fmt_none
-exe "hi! NERDTreeFile"              .s:fg_fg_idle    .s:bg_none        .s:fmt_none
 exe "hi! NERDTreeDirSlash"          .s:fg_guide      .s:bg_none        .s:fmt_none
 
 
