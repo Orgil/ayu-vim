@@ -242,6 +242,8 @@ exe "hi! NERDTreeFile"              .s:fg_file    .s:bg_none        .s:fmt_none
 exe "hi! NERDTreeDirSlash"          .s:fg_guide      .s:bg_none        .s:fmt_none
 exe "hi! ALEErrorSign"              .s:fg_error      .s:bg_none        .s:fmt_none
 exe "hi! ALEWarningSign"            .s:fg_accent     .s:bg_none        .s:fmt_none
+
+exe "hi! typescriptCall"        .s:fg_constant  .s:bg_none        .s:fmt_none
 exe "hi! typescriptClassName" .s:fg_typeClassName .s:bg_none .s:fmt_none
 exe "hi! typescriptClassHeritage" .s:fg_typeClassName .s:bg_none .s:fmt_none
 exe "hi! typescriptExport" .s:fg_typeKey .s:bg_none .s:fmt_none
