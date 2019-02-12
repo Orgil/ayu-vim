@@ -252,6 +252,10 @@ exe "hi! lv16".s:fg_typeProps.s:bg_none .s:fmt_none
 exe "hi! xmlTagName" .s:fg_function.s:bg_none .s:fmt_none
 exe "hi! xmlEndTag" .s:fg_function.s:bg_none .s:fmt_none
 
+exe "hi! jsFunctionKey"             .s:fg_function  .s:bg_none        .s:fmt_none
+exe "hi! jsFuncArgs"         .s:fg_special   .s:bg_none        .s:fmt_none
+exe "hi! jsFuncBlock" .s:fg_typeProps.s:bg_none .s:fmt_none
+exe "hi! jsObjectKey"       .s:fg_keyword   .s:bg_none        .s:fmt_none
 
 
 " GitGutter
