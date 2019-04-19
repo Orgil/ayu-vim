@@ -31,6 +31,7 @@ let s:palette.blue = { 'mirage': "#36A3D9" }
 let s:palette.file= { 'mirage': "#8294a5" }
 let s:palette.typeKey={ 'mirage': "#6084A5" }
 let s:palette.typeClassName={ 'mirage': "#4AC3FF" }
+let s:palette.typeMemberName={ 'mirage': "#7fbedb" }
 let s:palette.typeProps={ 'mirage': "#ACCBD6" }
 
 let s:palette.error     = {'dark': "#FF3333",  'light': "#FF3333",  'mirage': "#d35050"}
@@ -197,6 +198,7 @@ exe "hi! qfLineNr"        .s:fg_keyword   .s:bg_none        .s:fmt_none
 "   qfLineNr"
 "   qfError"
 
+exe "hi! CocCodeLens" .s:fg_guide .s:bg_none .s:fmt_none
 exe "hi! Conceal"         .s:fg_guide     .s:bg_none        .s:fmt_none
 exe "hi! CursorLineConceal" .s:fg_guide   .s:bg_line        .s:fmt_none
 
@@ -243,12 +245,15 @@ exe "hi! NERDTreeDirSlash"          .s:fg_guide      .s:bg_none        .s:fmt_no
 exe "hi! ALEErrorSign"              .s:fg_error      .s:bg_none        .s:fmt_none
 exe "hi! ALEWarningSign"            .s:fg_accent     .s:bg_none        .s:fmt_none
 
+exe "hi! typescriptInterfaceName" .s:fg_special .s:bg_none .s:fmt_none
+exe "hi! typescriptTypeReference" .s:fg_special .s:bg_none .s:fmt_none
 exe "hi! typescriptCall"        .s:fg_constant  .s:bg_none        .s:fmt_none
 exe "hi! typescriptClassName" .s:fg_typeClassName .s:bg_none .s:fmt_none
 exe "hi! typescriptClassHeritage" .s:fg_typeClassName .s:bg_none .s:fmt_none
 exe "hi! typescriptExport" .s:fg_typeKey .s:bg_none .s:fmt_none
 exe "hi! embeddedTs" .s:fg_string .s:bg_none .s:fmt_none
 exe "hi! typescriptBlock" .s:fg_typeProps.s:bg_none .s:fmt_none
+exe "hi! typescriptMember" .s:fg_typeMemberName.s:bg_none .s:fmt_none
 exe "hi! typescriptIdentifierName".s:fg_typeProps.s:bg_none .s:fmt_none
 exe "hi! lv16".s:fg_typeProps.s:bg_none .s:fmt_none
 exe "hi! xmlTagName" .s:fg_function.s:bg_none .s:fmt_none
